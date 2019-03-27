@@ -7,6 +7,14 @@ import { LayoutRoutingModule } from './layout-routing.module';
 import { LayoutComponent } from './layout.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HeaderComponent } from './components/header/header.component';
+import { EnregistrementComponent } from './enregistrement/enregistrement.component';
+import { PrenataleComponent } from './prenatale/prenatale.component';
+import { PostnataleComponent } from './postnatale/postnatale.component';
+import { PlanningComponent } from './planning/planning.component';
+import { DepistageComponent } from './depistage/depistage.component';
+import { SuiviComponent } from './suivi/suivi.component';
+import { AdministrationComponent } from './administration/administration.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
     imports: [
@@ -15,6 +23,6 @@ import { HeaderComponent } from './components/header/header.component';
         TranslateModule,
         NgbDropdownModule
     ],
-    declarations: [LayoutComponent, SidebarComponent, HeaderComponent]
+    declarations: [LayoutComponent, SidebarComponent, HeaderComponent, EnregistrementComponent, PrenataleComponent, PostnataleComponent, PlanningComponent, DepistageComponent, SuiviComponent, AdministrationComponent,HomeComponent]
 })
 export class LayoutModule {}

@@ -7,14 +7,14 @@ const routes: Routes = [
         path: '',
         component: LayoutComponent,
         children: [
-            { path: '', redirectTo: 'dashboard', pathMatch: 'prefix' },
-            { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
+            { path: '', redirectTo: 'login', pathMatch: 'prefix' },
+            { path: 'home', loadChildren: './home/home.module#HomeModule' },
             { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
-            { path: 'tables', loadChildren: './tables/tables.module#TablesModule' },
+            { path: 'enregistrement', loadChildren: './enregistrement/enregistrement.module#EnregistrementModule' },
             { path: 'forms', loadChildren: './form/form.module#FormModule' },
-            { path: 'bs-element', loadChildren: './bs-element/bs-element.module#BsElementModule' },
-            { path: 'grid', loadChildren: './grid/grid.module#GridModule' },
-            { path: 'components', loadChildren: './bs-component/bs-component.module#BsComponentModule' },
+            { path: 'prenatale', loadChildren: './prenatale/prenatale.module#PrenataleModule' },
+            { path: 'postnatale', loadChildren: './postnatale/postnatale.module#PostnataleModule' },
+            { path: 'planning', loadChildren: './planning/planning.module#PlanningModule' },
             { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' }
         ]
     }

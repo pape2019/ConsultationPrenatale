@@ -1,4 +1,4 @@
-$topnav-background-color: #222;
+$topnav-background-color: rgb(34, 34, 34);
 :host {
     display: block;
 }
@@ -11,13 +11,13 @@ $topnav-background-color: #222;
     overflow: auto;
     background: $topnav-background-color;
     text-align: center;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.863);
     padding: 3em;
     .col-lg-4 {
         padding: 0;
     }
     .input-lg {
-        height: 46px;
+        height: 30px;
         padding: 10px 16px;
         font-size: 18px;
         line-height: 1.3333333;
@@ -44,6 +44,7 @@ $topnav-background-color: #222;
         font-size: 18px;
         line-height: 40px;
         padding: 0 25px;
+
     }
     .rounded-btn:hover,
     .rounded-btn:focus,
