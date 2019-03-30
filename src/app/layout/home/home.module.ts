@@ -5,7 +5,7 @@ import { NgbCarouselModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeRoutingModule } from './home-routing.module';
 import {HomeComponent } from './home.component';
 
-import { StatModule } from '../../shared';
+
 
 @NgModule({
     imports: [
@@ -13,7 +13,7 @@ import { StatModule } from '../../shared';
         NgbCarouselModule,
         NgbAlertModule,
         HomeRoutingModule,
-        StatModule
+      
     ],
     declarations: [ HomeComponent,]})
 export class HomeModule {}

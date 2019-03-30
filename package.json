@@ -1,5 +1,5 @@
 {
-  "name": "SB-Admin-BS4-Angular-7",
+  "name": "SB-Admin-BS4-Angular-6",
   "version": "7.0.0",
   "license": "Apache",
   "scripts": {
@@ -26,6 +26,7 @@
     "@ng-bootstrap/ng-bootstrap": "4.0.0",
     "@ngx-translate/core": "11.0.0",
     "@ngx-translate/http-loader": "4.0.0",
+    "@types/jquery": "^3.3.29",
     "chart.js": "2.7.3",
     "core-js": "2.5.7",
     "datatables.net": "^1.10.19",

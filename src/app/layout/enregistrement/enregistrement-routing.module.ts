@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes,RouterModule } from '@angular/router';
-import { EnregistrementComponent } from './enregistrement.component';
+import { EnregistrementListComponent } from './enregistrement-list/enregistrement-list.component';
+import { EnregistrementficheComponent } from './enregistrementfiche/enregistrementfiche.component';
 
 const routes: Routes = [
   {
-      path: 'enregistrement', component: EnregistrementComponent
-  }
+      path: '', component: EnregistrementListComponent },
+
+  { path: ':id', component: EnregistrementficheComponent,}
 ];
 
 @NgModule({
